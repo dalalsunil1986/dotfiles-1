@@ -1,6 +1,6 @@
 " Use the Solarized Dark theme
 set background=dark
-colorscheme solarized
+colorscheme zenburn
 let g:solarized_termtrans=1
 
 " Make Vim more useful
