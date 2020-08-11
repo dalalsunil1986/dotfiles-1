@@ -1,5 +1,21 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
+export PATH="$HOME/.config/composer/vendor/bin:$PATH";
+export PATH="$HOME/.local/bin:$PATH";
+export AWS_ACCESS_KEY_ID='AKIAIAFJFWGSJTCWWHYQ'
+export AWS_SECRET_ACCESS_KEY='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'
+export PATH=/snap/bin:$PATH
+
+export GOROOT=$HOME/go
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$PATH
+
+source $HOME/google-cloud-sdk/path.bash.inc
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
