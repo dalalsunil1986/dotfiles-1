@@ -2,8 +2,8 @@
 export PATH="$HOME/bin:$PATH";
 export PATH="$HOME/.config/composer/vendor/bin:$PATH";
 export PATH="$HOME/.local/bin:$PATH";
-export AWS_ACCESS_KEY_ID='AKIAIAFJFWGSJTCWWHYQ'
-export AWS_SECRET_ACCESS_KEY='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'
+export AWS_ACCESS_KEY_ID=
+export AWS_SECRET_ACCESS_KEY=
 export PATH=/snap/bin:$PATH
 
 export GOROOT=$HOME/go
